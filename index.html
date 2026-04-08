@@ -129,6 +129,12 @@
       background: linear-gradient(45deg, yellow, orange, gold);
       box-shadow: 0 0 20px rgba(255, 200, 0, 0.7);
       animation: pulse 2s infinite;
+      text-decoration: none;
+    }
+
+    .zkaterBtn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 35px rgba(255, 215, 0, 1);
     }
 
     @keyframes pulse {
@@ -147,7 +153,6 @@
 
 <div class="announcement">
   <strong>BECOME THE FIRST PERSON TO HAVE YOUR CLIP DISPLAYED ON OUR WEBSITE BY SUBMITTING THROUGH OUR DISCORD ⤵️</strong>
-  <p>Also YOU SHOULD ONLY PURCHASE THE FEATURED SPOT IF YOU HAVE A QUALIFIED CLIP ID!</p>
 </div>
 
 <header>
@@ -201,7 +206,7 @@
 
   <div id="skater" class="card">
     <h2>🏆 Skater of the Week</h2>
-    <img src="images/Logo2zkatersdaily.png" style="width:100%; max-width:400px; border-radius:10px;">
+    <img src="images/Logoforzkatersdaily.png" style="width:100%; max-width:400px; border-radius:10px;">
     <h3>Name Here</h3>
     <p>🔥 Clean tricks, consistency, and insane control this week.</p>
   </div>
@@ -211,7 +216,6 @@
 
     <h3>🆓 Free Submission (Discord)</h3>
     <p>Post in <b>『📹』uncertified-bails-wipeouts or 『📹』uncertified-successful-clips</b></p>
-    <p>only step:</p>
 
     <a href="https://discord.gg/ABACeUkJB" target="_blank">
       <button>JOIN DISCORD</button>
@@ -220,11 +224,20 @@
     <hr>
 
     <h3>💰 Featured Spot ($5)</h3>
-    <p>you must have a qualified clip & provide the CLIP ID before payment.</p>
+    <p>Subscribe to our Patreon to feature your clip! You must have a qualified clip & provide the CLIP ID after payment.</p>
 
-    <a href="https://www.paypal.me/zkaterswrldd/5" target="_blank">
-      <button class="gold">PAY $5 TO UNLOCK FEATURED SPOT</button>
-    </a>
+    <!-- Patreon Button -->
+    <div class="shop-section">
+      <a href="https://www.patreon.com/https://www.patreon.com/cw/ZkatersWorld" target="_blank" class="zkaterBtn">
+        <span>SUBSCRIBE $5 – FEATURED CLIP</span>
+      </a>
+    </div>
+
+    <!-- Google Form Link -->
+    <p style="margin-top:15px; font-size:16px;">
+      After subscribing, submit your Clip ID here: 
+      <a href="https://forms.gle/MMgy5uf1cPHjLsY59" target="_blank" style="color: gold; text-decoration: underline;">Submit Clip ID</a>
+    </p>
   </div>
 
 </div>
